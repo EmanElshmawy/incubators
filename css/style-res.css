@@ -1,0 +1,883 @@
+@media(max-width:1440px) {}
+
+@media(max-width:1366px) {}
+
+@media(max-width:1024px) {
+
+
+    .main-head .main-nav .org {
+        position: absolute;
+        width: 100%;
+        z-index: 7;
+        right: 15px;
+        top: 101px;
+        background-color: #fff;
+        border-top: 2px solid #8dc63f;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        display: none;
+        max-width: calc(100% - 30px);
+    }
+
+    .main-head .main-nav .org li {
+        display: block;
+        margin: 0;
+    }
+
+    .main-head .main-nav .org li a {
+        padding: 15px;
+    }
+
+    .main-head .main-nav .org .menu-item-has-children a:after {
+        float: right;
+    }
+
+    .main-head .main-nav .org .sub-menu {
+        width: 100%;
+        position: relative;
+        display: none;
+        border: 0;
+        box-shadow: none;
+    }
+
+    .main-head .main-nav .org .menu-item-has-children:hover .sub-menu {
+        display: block;
+    }
+
+    .main-head .main-nav .org .sub-menu li a {
+        padding: 10px 25px;
+    }
+
+    .main-head .main-nav .org li a:before {
+        display: none;
+    }
+
+    .main-head .inner .main-nav {
+        display: none;
+    }
+
+    .main-head .inner {
+        padding: 20px;
+    }
+
+    .main-head .inner .logo {
+        margin: 0;
+    }
+
+    .main-head .inner .h-extra {
+        padding: 10px 0 0;
+    }
+
+    .open-menu {
+        display: inline-block;
+    }
+
+    .hero-s h3 {
+        max-width: none;
+    }
+
+    .top-section .top-outer .outer-mask {
+        height: 588px;
+    }
+
+    .top-section {
+        margin-bottom: 0;
+    }
+
+    .item .i-img {
+        height: 180px;
+    }
+
+    .middle-section .cardo .c-inner .c-img {
+        width: 150px;
+        height: 150px;
+        border-width: 5px;
+        box-shadow: 0 0 0 5px rgba(18, 125, 122, 0.28);
+    }
+
+    .apps .block .inner a {
+        padding: 30px;
+    }
+
+    .discs .d-item .inner .ii-img:after {
+        bottom: -5px;
+    }
+
+    .datepicker,
+    .table-condensed,
+    .timepicker,
+    .table-condensed {
+        width: 375px;
+    }
+
+}
+
+
+
+@media(max-width:991px) {
+    .container {
+        width: 100%;
+    }
+
+    .top-section .top-outer {
+        transform: none;
+        top: 0;
+        right: 0;
+        border-radius: 0;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
+
+    .top-section .top-outer .outer-mask .mask-img {
+        transform: none;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+    }
+
+    .top-section .top-outer .outer-mask {
+        height: 500px;
+    }
+
+    .hero-s {
+        padding-top: 30px;
+    }
+
+    .hero-s h3 {
+        max-width: 100%;
+    }
+
+    .apps .block .inner a {
+        padding: 30px;
+    }
+
+    .apps .block .inner .i-bottom h3 {
+        font-size: 17px;
+    }
+
+    .cl-slider .owl-nav button.owl-next {
+        right: 100px;
+    }
+
+    .cl-slider .owl-nav button.owl-prev {
+        right: 150px;
+    }
+
+    .footer-top .f-item {
+        padding: 0;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .footer-top .f-item:last-of-type {
+        margin: 0;
+    }
+
+    .footer-top .f-item h4 {
+        margin-bottom: 25px;
+    }
+
+    .top-section .top-outer {
+        border-radius: 0 !important;
+    }
+
+    .top-section .top-outer .outer-mask {
+        height: 580px;
+    }
+
+    .discs .d-item {
+        padding: 15px;
+    }
+
+    .main-head.logged .inner .h-extra .btn.dropdown-toggle {
+        display: inline-block;
+        width: auto;
+        height: auto;
+        line-height: normal;
+        padding: 0;
+        background-color: transparent !important;
+        color: #127d7a;
+        font-size: 19px;
+        top: -2px;
+    }
+
+    .login-banner {
+        position: relative;
+        width: 100%;
+        min-height: 0;
+        height: auto;
+        padding: 30px;
+    }
+
+
+    .login-banner .side-img:after {
+        display: none;
+    }
+
+    .login-banner .banner-logo {
+        margin: 5% 0 2%;
+    }
+
+    .login-mask {
+        width: 100%;
+        margin: 0;
+        padding: 30px;
+        height: auto;
+    }
+
+    .login-banner .banner-logo img {
+        width: 250px;
+    }
+
+    .login-banner .banner-info p:last-of-type {
+        font-size: 17px;
+    }
+
+    .login-mask .login_mask_inner {
+        padding: 0;
+    }
+
+    .about-inner-page .inner .ev-time .time-data {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .about-inner-page .inner .ev-time .time-data h3:after {
+        display: none;
+    }
+
+    .about-inner-page .inner .ev-time .time-event {
+        max-width: 100%;
+    }
+
+    .about-inner-page .nav-tabs li {
+        width: 100%;
+        display: block;
+        margin-bottom: 25px;
+    }
+
+    .about-inner-page .inner {
+        padding: 20px;
+    }
+
+    .about-inner-page .nav-tabs {
+        display: block;
+        text-align: initial;
+        border: 0;
+    }
+
+    .about-inner-page .nav-tabs li a {
+        border-bottom: 2px solid #ddd !important;
+        padding-bottom: 16px;
+    }
+
+    .about-inner-page .nav-tabs li a:after {
+        right: 0;
+        left: auto;
+        transform: none;
+    }
+
+    .about-inner-page .nav-tabs li a:hover:after,
+    .about-inner-page .nav-tabs li.active a:after {
+        width: 50%;
+    }
+
+    .inner-layout .hero-s {
+        padding: 0;
+    }
+
+    .single-post .post-img {
+        margin: 0 0 50px;
+        max-width: 100%;
+    }
+
+    .single-post .post-data {
+        padding: 0;
+        max-width: 100%;
+    }
+
+    .clients .cl-head {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .gallery .block {
+        width: 33.333% !important;
+    }
+
+    .single-videos .item .i-vid {
+        height: 300px;
+    }
+
+    .event-layout .clients.clients-inner .item img {
+        width: 150px;
+        margin: 0 auto;
+    }
+
+    .profile-layout .profile-bottom {
+        overflow: hidden;
+    }
+
+    .profile-layout .profile-bottom .prof-sidebar .nav-tabs {
+        white-space: nowrap;
+        overflow: hidden;
+        overflow-x: auto;
+    }
+
+    .profile-layout .profile-bottom .prof-sidebar .nav-tabs li {
+        display: table-cell;
+        width: 1%;
+    }
+
+    .profile-layout .profile-bottom .prof-sidebar .nav-tabs li a {
+        padding: 15px;
+    }
+
+    .profile-layout .profile-bottom .prof-sidebar .nav-tabs li a span {
+        display: block;
+        font-size: 15px;
+        font-family: taj-bd;
+        margin-top: 3px;
+        color: inherit;
+    }
+
+    .profile-layout .profile-bottom .prof-sidebar {
+        margin-bottom: 50px;
+    }
+
+    .profile-layout .profile-bottom .prof-content {
+        padding: 0;
+    }
+
+    .profile-layout .profile-bottom .prof-content .benifiers .ben-reg {
+        padding: 0;
+    }
+
+    .profile-layout .profile-bottom .prof-content .benifiers .ben-card {
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .tooltip.left {
+        display: none !important;
+    }
+
+    .chat-users,
+    .chat-info {
+        position: absolute;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        z-index: 2;
+        top: 0px;
+        max-width: 100%;
+        padding-bottom: 20px;
+        flex: 0 0 auto;
+        transition: all 0.3s ease 0s;
+    }
+
+    .chat-info {
+        left: 0px;
+        transform: translateX(110%);
+    }
+
+    .chat-users {
+        right: 0px;
+        transform: translateX(-110%);
+    }
+
+    .chat-body {
+        max-width: 100%;
+        flex: 0 0 auto;
+    }
+
+    .chat-layout {
+        overflow: hidden;
+    }
+
+    .chat-users.active,
+    .chat-info.active {
+        transform: translateX(0px);
+        transition: all 0.3s ease 0s;
+    }
+
+    .chat-body .ch-body-head .open-users,
+    .chat-body .ch-body-head .open-info {
+        display: inline-block;
+    }
+
+    .off-users,
+    .off-info {
+        display: inline-block;
+    }
+
+    .chat-body {
+        height: 100%;
+    }
+
+    .chat-inner-page {
+        padding-bottom: 0;
+    }
+
+    .chat-body .ch-body-inner {
+        padding: 15px;
+        margin: 10px 0;
+    }
+
+    .faqs {
+        max-width: 100%;
+    }
+
+    .faqs .panel-title a,
+    .faqs .panel-body p {
+        font-size: 15px;
+    }
+
+    .datepicker,
+    .table-condensed,
+    .timepicker,
+    .table-condensed {
+        width: 420px;
+    }
+
+    .single-layout .post {
+        max-width: 100%;
+    }
+}
+
+@media(max-width:768px) {
+
+    .datepicker,
+    .table-condensed,
+    .timepicker,
+    .table-condensed {
+        width: 647px;
+    }
+
+    .post-comments {
+        padding: 15px;
+    }
+}
+
+@media(max-width:600px) {
+    .main-head .inner .h-extra .btn {
+        display: none;
+    }
+
+    .main-head .inner .h-extra > ul {
+        margin: 0;
+    }
+
+    .main-head .inner .logo img {
+        width: 170px;
+    }
+
+    .main-head .inner .h-extra {
+        padding: 0;
+    }
+
+    .main-head .inner .h-extra ul li a {
+        display: inline-block;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .main-head .inner {
+        padding: 10px;
+    }
+
+
+    .hero-s h3 {
+        line-height: 1.5;
+        font-size: 18px;
+    }
+
+    .hero-s .btn {
+        height: 40px;
+        line-height: 40px;
+        padding: 0 20px;
+        font-size: 14px;
+    }
+
+    .top-section .top-outer .outer-mask {
+        height: 400px;
+    }
+
+    .top-section .top-outer {
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+
+    .g-head .btn.btn-reversed {
+        font-size: 15px;
+        height: 40px;
+        line-height: 40px;
+        padding: 0 30px;
+    }
+
+    .events {
+        padding: 0 0 50px;
+        overflow: hidden;
+    }
+
+    .ev-slider .item {
+        padding: 0 15px;
+    }
+
+    .middle-section .nav-tabs li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .middle-section .nav-tabs li a {
+        display: block;
+        text-align: center;
+    }
+
+    .middle-section {
+        padding-bottom: 100px;
+        overflow: hidden;
+    }
+
+    .apps .block {
+        padding: 10px;
+    }
+
+    .apps {
+        padding-bottom: 100px;
+    }
+
+    .clients {
+        padding: 0 0 70px;
+    }
+
+    .clients .item .outer {
+        padding: 20px;
+        padding-bottom: 90px;
+    }
+
+    .cl-slider .owl-nav button.owl-next {
+        right: 70px;
+    }
+
+    .cl-slider .owl-nav button.owl-prev {
+        right: 120px;
+    }
+
+    .main-head .inner .h-extra ul li .dropdown-menu {
+        margin: -1px;
+    }
+
+    .load-more {
+        text-align: center;
+    }
+
+    .load-more span {
+        margin: 0 auto 10px;
+        display: block;
+    }
+
+    .toTop {
+        bottom: 30px;
+    }
+
+    .events .g-head {
+        padding: 0 30px;
+    }
+
+    .middle-section .nav-tabs li a {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .top-section .top-outer .outer-mask {
+        height: 470px;
+    }
+
+    .top-outer:after {
+        height: 200px;
+        bottom: 0;
+    }
+
+    .user-aarea .social {
+        display: none;
+    }
+
+    .r-user .chat-area .sub-menu,
+    .r-user .notif-area .sub-menu {
+        left: -175px;
+    }
+
+    .r-user .chat-area .sub-menu {
+        left: -150px;
+    }
+
+    .gallery .block {
+        width: 100% !important;
+    }
+
+    .single-videos .item .i-vid {
+        height: 200px;
+    }
+
+    .single-videos .owl-nav {
+        margin: 0 20px 0 0;
+    }
+
+    .single-post .post-img .p-inner {
+        height: 250px;
+    }
+
+    .single-post .post-img .p-social a {
+        margin-right: 5px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
+    }
+
+    .single-post .post-data h3,
+    .single-map h3 {
+        font-size: 23px;
+    }
+
+    .single-post .post-data h3 {
+        font-size: 26px;
+    }
+
+    .single-map h3 {
+        font-size: 23px;
+    }
+
+    .single-map .map-inner {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #map_wrapper {
+        height: 300px;
+    }
+
+    .clients .cl-head {
+        padding: 0;
+    }
+
+    .single-videos h3,
+    .gallery .g-head h3 {
+        font-size: 23px;
+    }
+
+    .single-videos h3 i {
+        font-size: 40px;
+    }
+
+    .single-layout .clients {
+        padding: 0;
+    }
+
+    .single-videos .item {
+        padding: 0 15px;
+    }
+
+    .single-videos:before {
+        width: 100%;
+    }
+
+    .gallery .g-head p {
+        max-width: 100%;
+    }
+
+    .single-post {
+        padding: 50px 0;
+    }
+
+    .post-comments li .com-img {
+        width: 40px;
+        height: 40px;
+        margin-left: 10px;
+    }
+
+    .profile-layout .profile-top .prof-widget .prof-img {
+        width: 120px;
+        height: 120px;
+        margin: 0 auto 20px;
+        float: none;
+    }
+
+    .profile-layout .profile-top .prof-widget .prof-data {
+        width: 100%;
+        padding: 0;
+    }
+
+    .profile-layout .profile-top .prof-widget {
+        text-align: center;
+        margin-top: -80px;
+    }
+
+    .profile-layout .profile-top .prof-widget .prof-data h3,
+    .profile-layout .profile-top .prof-widget .prof-data p {
+        color: #000;
+    }
+
+    .profile-layout .profile-top .prof-widget .prof-data h3 {
+        margin-bottom: 11px;
+    }
+
+    .profile-layout .profile-top .edit-profile {
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .profile-layout .profile-top {
+        margin-bottom: 50px;
+    }
+
+    .profile-layout .profile-bottom .prof-content .benifiers .ben-card .inner .ben-bottom ul li {
+        width: 100%;
+        text-align: initial !important;
+        margin-bottom: 2px;
+    }
+
+    .profile-layout .profile-bottom .prof-content .benifiers .ben-card:last-of-type {
+        margin: 0;
+    }
+
+    .profile-layout .profile-bottom .prof-sidebar .nav-tabs li a {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .profile-layout .profile-bottom .prof-sidebar .nav-tabs li a span {
+        font-size: 13px;
+    }
+
+    .profile-layout .profile-bottom .prof-content .benifiers .nav-tabs {
+        margin-bottom: 30px;
+    }
+
+    .profile-layout .profile-bottom .prof-content .benifiers .nav-tabs li {
+        margin-left: 8px;
+    }
+
+    .main-head.profile-head {
+        padding-bottom: 200px;
+    }
+
+    .profile-layout .profile-top .prof-widget .prof-img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .profile-layout.edit-profile-layout .profile-top .prof-widget .prof-img i {
+        font-size: 40px;
+    }
+
+    .profile-layout.edit-profile-layout .edit-prof .form-group {
+        padding: 0;
+    }
+
+    .profile-layout.edit-profile-layout .edit-prof .form-group i {
+        right: 20px;
+    }
+
+    .profile-layout.edit-profile-layout .edit-prof .form-group.has-btn {
+        display: block;
+    }
+
+    .profile-layout.edit-profile-layout .profile-top .edit-profile {
+        display: none;
+    }
+
+    .about-inner-page {
+        padding: 50px 0;
+    }
+
+    .contact .con-data {
+        padding: 0;
+        margin-bottom: 50px;
+    }
+
+    .contact .con-form {
+        padding: 0;
+    }
+
+    .map-box {
+        height: 250px;
+    }
+
+    .file-upload-wrapper .card.card-body .file-upload-message {
+        top: 0;
+    }
+
+    .file-upload-wrapper .card.card-body.touch-fallback .file-upload-preview .file-upload-infos .file-upload-infos-inner {}
+
+    .file-upload-wrapper .card.card-body.touch-fallback .file-upload-preview .file-upload-infos {
+        position: absolute;
+        left: 20px;
+    }
+
+    .file-upload-wrapper .card.card-body.touch-fallback .btn.btn-sm.btn-danger {
+        right: 20px;
+        bottom: 20px;
+    }
+
+    .inner-form .form-group {
+        padding: 0;
+    }
+
+    .inner-form {
+        padding: 20px;
+    }
+
+    .datepicker,
+    .table-condensed,
+    .timepicker,
+    .table-condensed {
+        width: 530px;
+    }
+}
+
+@media(max-width:425px) {
+
+
+    .main-head .main-nav .org {
+        top: 73px;
+    }
+
+
+    .mob-menu .cl-menu {
+        top: 33px;
+    }
+
+
+    .datepicker,
+    .table-condensed,
+    .timepicker,
+    .table-condensed {
+        width: 355px;
+    }
+}
+
+@media(max-width:375px) {
+
+    .datepicker,
+    .table-condensed,
+    .timepicker,
+    .table-condensed {
+        width: 305px;
+    }
+}
+
+@media(max-width:360px) {
+
+    .datepicker,
+    .table-condensed,
+    .timepicker,
+    .table-condensed {
+        width: 290px;
+    }
+}
+
+
+
+@media(max-width:320px) {}

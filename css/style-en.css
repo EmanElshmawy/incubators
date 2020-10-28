@@ -1,0 +1,42 @@
+* {
+    direction: ltr;
+}
+
+
+.main-head .main-nav {
+    float: right;
+}
+
+.menu-item-has-children > a:after {
+    margin: 0 0 0 7px;
+}
+
+.owl-carousel .owl-wrapper-outer {
+    direction: ltr;
+}
+
+.login-banner {
+    left: 0;
+    right: auto;
+    padding: 20px 100px 20px 30px;
+}
+
+.login-mask {
+    margin: 0 0 0 50%;
+}
+
+.login-banner .side-img:after {
+    transform: scaleX(-1);
+}
+
+.login-mask .form-group i {
+    left: 20px;
+    right: auto;
+}
+
+
+@media(max-width:1024px) {
+    .main-head .main-nav .org .menu-item-has-children a:after {
+        float: right !important;
+    }
+}
